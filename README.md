@@ -1,3 +1,25 @@
+# data exploration
+
+n/
+
+looked online for a data set on websites like kaggle
+
+this will contain my data exploration and cleaning after looking on many websites for some data sets, this has allowed me to see the prossess of trying to pick a data set that was able to meet the need and fit the question for this assiasment it was hard to pick a data set that was intresting and also fit the idea and scope of the project i looked for a project that would have some data that was not to big also had some data that was numaric as well as had some insites that could be tested i was looking for something in entertainment or something to do with pop culture after importing the data set i had to clean the data this included getting the colums set for the data analsys this included removing words as well as filling in some of the data points and looking for null valuse that might cause some issues down the line after that was finished i wanted to get the dates seperrated but this was harder then i orignaly thought
+
+
+
+
+n/
+
+# final data analysis
+
+after running the anova test i was able to reject my null hypothisis because of my low p value this has shown that the amount of episodes does not have a efect on the score of the anime based off of this dataset this has produced the question of how was the score formed like was it once the show was done was it during the publication or was it based of of a episode per episode spectrume
+
+
+
+
+
+
 # Project 1 Requirements
 These are the requirements for Project 1. 
 
