@@ -1,6 +1,5 @@
 # data exploration
 
-n/
 
 looked online for a data set on websites like kaggle
 
@@ -9,7 +8,6 @@ this will contain my data exploration and cleaning after looking on many website
 
 
 
-n/
 
 # final data analysis
 
