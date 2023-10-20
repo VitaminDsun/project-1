@@ -1,103 +1,59 @@
-# data exploration
+# Project ReadMe Document
 
+## Data Exploration
 
-looked online for a data set on websites like kaggle
+### 1. Data Set Acquisition
+In the initial phase of this project, the team embarked on data exploration. We scoured various online sources, including websites like Kaggle, to locate a suitable dataset for our analysis.
 
-this will contain my data exploration and cleaning after looking on many websites for some data sets, this has allowed me to see the prossess of trying to pick a data set that was able to meet the need and fit the question for this assiasment it was hard to pick a data set that was intresting and also fit the idea and scope of the project i looked for a project that would have some data that was not to big also had some data that was numaric as well as had some insites that could be tested i was looking for something in entertainment or something to do with pop culture after importing the data set i had to clean the data this included getting the colums set for the data analsys this included removing words as well as filling in some of the data points and looking for null valuse that might cause some issues down the line after that was finished i wanted to get the dates seperrated but this was harder then i orignaly thought
+### 2. Data Selection
+Selecting an appropriate dataset posed a significant challenge. Our primary goal was to find data that aligned with the assignment's requirements. We aimed to choose a dataset that was both engaging and pertinent to the project's scope. We specifically looked for a dataset with manageable size, containing numeric data, and offering insights that could be tested. Our focus was on topics related to entertainment or popular culture.
 
+### 3. Data Cleaning
+After importing the dataset, a critical step was to clean the data. This included preparing the columns for data analysis, which involved tasks such as removing unnecessary words, filling in missing data points, and identifying and addressing null values. A particular challenge was the separation of dates, which proved to be more complex than initially anticipated.
 
+## Final Data Analysis
 
+### 1. Hypothesis Testing
+Following the data cleaning process, we conducted a hypothesis test. The test, specifically an ANOVA test, led to the rejection of the null hypothesis due to the low p-value. This outcome indicated that the number of episodes did not significantly impact the score of the anime, based on the dataset. This result raised questions about how the scores were determined, such as whether they were assigned after the show's completion, during publication, or episode by episode.
 
-
-# final data analysis
-
-after running the anova test i was able to reject my null hypothisis because of my low p value this has shown that the amount of episodes does not have a efect on the score of the anime based off of this dataset this has produced the question of how was the score formed like was it once the show was done was it during the publication or was it based of of a episode per episode spectrume
-
-
-
-
-
-
-# Project 1 Requirements
-These are the requirements for Project 1. 
+## Project 1 Requirements
 
 ### Grading
-This project will be graded by your TAs and me, and grading will be both objective (e.g., how well did you satisfy the requirements) and subjective (i.e., how well you did you do compared to the other groups in the class). You will also have an opportunity to provide confidential feedback about the members of your group. 
+The project will be graded by both teaching assistants and the instructor. Grading criteria include adherence to requirements and subjective assessment compared to other groups.
 
-### Additional time
-This project usually requires students to spend additional time outside of class hours, so please plan and prepare for that. 
+### Additional Time
+Please be aware that this project may demand additional time outside of class hours.
 
 ### Project Schedule
+1. Thursday (7/28): Git branching, project kick-off, group collaboration
+2. Monday (8/1): Git merging, group work, submission of project proposals
+3. Tuesday (8/2): Hypothesis testing, group work
+4. Thursday (8/4): Group collaboration, class announcements
+5. Monday (8/8): Group collaboration, class announcements
+6. Tuesday (8/9): Project Presentations
 
-* Thursday (7/28): Branching in Git, project kick-off, group time
-* Monday (8/1): Merging in Git, group time, proposals due at the end of class 
-* Tuesday (8/2): Hypothesis testing, group time
-* Thursday (8/4): All group time; brief announcements when class begins
-* Monday (8/8): All group time; brief announcements when class begins
-* Tuesday (8/9): **Project Presentations**
+### Proposal Requirements
+- Submit your proposal directly via Slack, not email.
+- Include group number, list of group members, project topic, brief overview, research questions, hypothesis, and specific dataset links.
+- Ensure readability, grammar, and formatting.
+- Project proposal should provide necessary detail to facilitate discussion and gain approval.
 
+### Technical Requirements
+- Use at least one dataset, not exceeding 90 MB.
+- Utilize Pandas for data cleaning and formatting (no Excel).
+- Create Jupyter Notebooks for data exploration and final data analysis.
+- Produce six to eight visualizations using Matplotlib.
+- Optionally, pull data from an API.
+- Include at least one hypothesis test or linear regression.
 
-## Proposal Requirements
-Please assume the proposal is the **_starting point for a discussion_** with me, and please anticipate a variety of questions about your topic, your dataset(s), and the way you plan to divide the work. My whole goal in this discussion is to ensure that you're set up for success and you're not attempting to do more than you can handle in the time provided. I won't allow you to move forward until I approve your proposal, so please DO NOT wait until the last minute to choose your topic. 
+### Presentation Requirements and Guidelines
+- Limit presentation to 14 minutes.
+- All group members must present with cameras on.
+- Describe the project's topic, hypothesis, and motivation.
+- Summarize data sources and the data exploration process.
+- Explain the analysis process and results.
+- Conclude with lessons learned and potential improvements.
 
-1. You must submit your project proposal directly to me, via direct message on Slack (not email), no later than the end of the class specified above.  
-1. Your proposal may be written in either a Google Doc (in which case you'll send me a link that has sharing enabled) or directly in Slack.
-1. Your proposal must be readable, grammatically correct, and well formatted. Most proposals typically range from half a page to two pages in length, but there's no requirement for this.
-1. Your proposal must include the following: 
-    * Group number
-    * List of all group members
-    * Topic
-    * A brief overview of what you plan to do
-    * Two to four research questions to answer; i.e., what will you investigate? 
-    * The hypothesis you intend to test or the regression you intend to perform
-    * Links to the specific dataset(s) you plan to use. Note: it is NOT ok to say, "we'll find a dataset that includes ...." You must commit to your dataset(s) before I approve your proposal. 
-    * Work breakdown or list of major tasks
+---
 
-### Example
-Here's a simple idea for a proposal. Your proposal may look similar or different; it's up to you. As described above, your proposal will need a lot of additional detail as well: 
-> Our project is to uncover patterns in criminal activity around Los Angeles. We'll examine relationships between types of crime and location; crime rates and times of day; trends in crime rates over the course of the year; and related questions, as the data admits.
-
-
-## Technical Requirements
-1. Your project must use at least one dataset. You may optionally use more than one dataset, but I encourage you to _keep it simple_. 
-
-1. Your dataset must be no larger than 90 MB (to remain compliant with GitHub's limits). If your datset is larger than this, you'll have to shrink it with Pandas (not Excel) before using it on your project. 
-
-1. Your project must use Pandas to clean and format your data. Excel is not permitted. 
-
-1. You project must have one Jupyter Notebook that describes, and contains all code for, the **data exploration and cleanup** process.
-
-1. Your project must have another Jupyter Notebook contains the **final data analysis**.
-
-1. Your project must use Matplotlib to create six to eight visualizations of your data (ideally, at least two per "question" you ask of your data). 
-
-1. Your project may pull data from an API, if you can find an API with data pertinent to your primary research questions. An API is not required.  
-
-1. Your project must have a write-up that summarizes its major findings. This should include a heading for each "question" you asked of your data, and under each heading, a short description of what you found and any relevant plots.
-
-1. Your project must include at least one hypothesis test or at least one linear regression. (We'll discuss Hypothesis Testing at a later date. See above.)
-
-1. Your project team must have a single shared repo that contains all code and data files used for the project. All group members must be included as collaborators on that repo. At the end of the project, all group members will submit a link to this shared repo. 
-
-## Presentation Requirements and Guidelines
-I always describe the presentations as Show & Tell. I'll say more about this over the next few classes, but here are some general requirements and guidelines. 
-
-1. Requirement: due to the large class size, your presentation must last no longer than 14 minutes, and all group members must present something.
-
-1. Requirement: all group members must have their cameras on while the group presents. (You're supposed to have your cameras on anyway, but you'll fail the project if you don't.)
-
-1. Guideline: describe the topic and (optionally) the hypothesis for your project.
-
-1. Guideline: describe the questions your group found interesting, and what motivated you to answer them.
-
-1. Guideline: summarize where and how you found the data you used to answer these questions.
-
-1. Guideline: briefly describe the data exploration and cleanup process (accompanied by your Jupyter Notebook).
-
-1. Guideline: briefly describe the analysis process (accompanied by your Jupyter Notebook).
-
-1. Guideline: briefly summarize your conclusions. This should include a numerical summary (i.e., what data did your analysis yield), as well as visualizations that show these results. 
-
-1. Guideline: briefly discuss anything you'd do differently next time or any important lessons learned. 
-
-
+This document provides a comprehensive overview of the project, its requirements, and the process of data exploration and analysis. It serves as a guide for project participants, ensuring all key aspects are addressed and met.
